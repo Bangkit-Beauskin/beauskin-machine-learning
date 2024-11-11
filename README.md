@@ -1,6 +1,6 @@
 # beauskin-machine-learning
 
-# clon repository
+# clone repository
 git clone https://github.com/Bangkit-Beauskin/beauskin-machine-learning
 
 # installation 
