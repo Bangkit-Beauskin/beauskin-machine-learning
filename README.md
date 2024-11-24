@@ -61,7 +61,7 @@ For the chatbot component, an LSTM (Long Short-Term Memory) network is used to h
 The model is compiled with different loss functions, optimizers, and performance metrics based on the task at hand. For skin type classification, the model uses Stochastic Gradient Descent (SGD) with Nesterov Accelerated Gradient (NAG) as the optimizer. For acne grade detection, the Adam optimizer is used. The training process fits the model to the training dataset while validating on the validation dataset. Once training is complete, the model’s weights are saved in .h5 format for skin type classification and in .pt format for acne type detection.
 
 ### Model Conversion
-After training, the Keras model for skin type classification is saved in `.h5` format, which is ideal for deployment and future use. Additionally, the acne type detection model is saved in `.pt` format to make it compatible with PyTorch-based deployment systems.
+After training, the Keras models are saved in `.h5` format, which is ideal for deployment and future use. Additionally, the acne type detection model is saved in `.pt` format to make it compatible with PyTorch-based deployment systems.
 
 ### Making Predictions
 The notebook includes code to load the saved models and make predictions on new skin images. The images are preprocessed to match the input size expected by the models. The models predict the skin type (oily, dry, or normal), acne grades, and acne types, displaying the results along with the confidence levels. Class labels are stored in a text file.
