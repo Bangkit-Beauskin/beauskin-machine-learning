@@ -64,7 +64,7 @@ The model is compiled with different loss functions, optimizers, and performance
 After training, the Keras models are saved in .h5 format, which is ideal for deployment and future use. Additionally, the acne type detection model is saved in .pt format to ensure compatibility with the deployment system.
 
 ### Making Predictions
-The notebook includes code to load the saved models and make predictions on new skin images. The images are preprocessed to match the input size expected by the models. The models predict the skin type (oily, dry, or normal), acne grades, and acne types, displaying the results along with the confidence levels. Class labels are stored in a text file.
+The notebook includes code to load the saved models and make predictions on new skin images. The images are preprocessed to match the input size expected by the models. The models predict the skin type (oily, dry, or normal), acne grades, and acne types, displaying the results.
 
 ## Files
 The repository contains the following files:
