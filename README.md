@@ -72,7 +72,6 @@ The repository contains the following files:
 - `acne_types_detection.ipynb` - Jupyter notebook for acne type detection model, saved as `.pt`.
 - `chatbot.ipynb` - Jupyter notebook for the skincare chatbot model that provides personalized skincare recommendations.
 - `combine.ipynb` - Jupyter notebook that combines the results from the skin type and acne detection models.
-- `datasets.md` - Documentation file for dataset download links.
 - `requirements.txt` - Required dependencies for the project.
 - `skin_types_classification.ipynb` - Jupyter notebook for training and predicting skin types (oily, dry, normal).
 
